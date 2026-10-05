@@ -13,7 +13,6 @@ ENV NODE_ENV=production \
     BITACORA_DB=/datos/bitacora.db \
     BITACORA_RESPALDOS=/datos/respaldos \
     BITACORA_ARCHIVO=/datos/archivo
-VOLUME /datos
 EXPOSE 8080
 
 CMD ["node", "server.js"]
